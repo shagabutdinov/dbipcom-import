@@ -1,3 +1,5 @@
+SET @file := '';
+
 CREATE TABLE IF NOT EXISTS `tmp` (
   `start` varchar(64) NOT NULL,
   `end` varchar(64) NOT NULL,
@@ -6,7 +8,7 @@ CREATE TABLE IF NOT EXISTS `tmp` (
   `city` varchar(255) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-LOAD DATA INFILE '/home/leo/src/dbipcom-import/ips.csv'
+LOAD DATA INFILE @file
   INTO TABLE `tmp`
   FIELDS TERMINATED BY ','
   ENCLOSED BY '"'
