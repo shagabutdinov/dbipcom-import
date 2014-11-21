@@ -11,4 +11,5 @@ Usage
 2. Extract archive
 3. Clone this repository or download import.sql file.
 4. Put path to ips into very first line of scripts
-5. Run script with mysql -u USER -r DATABASE -p < import.sql
+5. Adapt script on your own need
+6. Run script with mysql -u USER -r DATABASE -p < import.sql
