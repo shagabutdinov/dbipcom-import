@@ -1,7 +1,7 @@
 DB-IP.com import sql scripts
 ----------------------------
 
-Convert csv of "IP address to city" from web site [DB-IP.com](DB-IP.com) to
+Convert csv of "IP address to city" from web site [DB-IP.com](http://DB-IP.com) to
 mysql table.
 
 Usage
